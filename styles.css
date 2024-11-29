@@ -1,9 +1,14 @@
 body {
     width: 1440px;
     height: 1024px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
 
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
 }
 
 nav {
@@ -12,17 +17,27 @@ nav {
     align-items:first baseline;
 }
 
+.nav-link:hover {
+    color: orange;
+    font-size: 1.5rem;
+}
+
+
 /* TEMPORARY PLACE FOR LINKS */
 a{
     text-decoration: none;
     color: white;
+    transition: color 2s;
+    transition: font-size 1s;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.cta-container, #a {
+.cta-container {
     display: flex;
     width: 300px;
     height: 100px;
-    border: 5px dotted red
     
 }
 
@@ -52,5 +67,5 @@ a{
 
 #main-section-img {
     width:600px;
-    height: 500;
+    height: 650px;
 }
