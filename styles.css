@@ -124,6 +124,23 @@ span{
 }
 
 
+
+/* ================FORM SECTION===================== */
+
+
+form {
+    display: flex;
+    flex-direction:column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    width: 500px;
+    height: 600px;
+    border: 4px solid orange;
+}
+
+
+
 /* ================MEDIA QUERIES=================== */
 
 @media (max-width: 430px) {
